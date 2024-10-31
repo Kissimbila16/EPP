@@ -13,21 +13,21 @@ function NavLinks() {
       path: "/",
     },
     {
-      title: "About",
+      title: "Sobre",
       path: "/about",
     },
     {
-      title: "Contact",
+      title: "Contactos",
       path: "/contact",
     },
     {
-      title: "Events",
+      title: "Eventos",
       path: "/events",
     },
   
     {
       isDropdown: true,
-      title: "Academics",
+      title: "Academias",
       links: [
         {
           title: "Departments",
@@ -47,7 +47,7 @@ function NavLinks() {
     
     {
       authDependent: true,
-      title: "LogIn",
+      title: "Entrar",
       path: "/login",
       Alttitle: "Dashboard",
       Altpath: "/admin/dashboard",

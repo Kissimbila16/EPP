@@ -20,7 +20,7 @@ export default function Navbar() {
             {/* college name and logo  */}
             <Link href="/" className="flex items-center space-x-3">
               <img src="/collegelogo.png" className="h-6 md:h-8 lg:h-10" alt="AOT Logo" />
-              <AnimatedElement className="font-bold  font-serif text-xs sm:text-lg text-blue-900 ">
+              <AnimatedElement className="font-bold  font-serif text-xs sm:text-lg text-red-900 ">
                 EPP
                 <div className="text-[8px] sm:text-xs text-right ">
                 ESCOLA PRATICA DA POLICIA NACIONAL
@@ -54,7 +54,7 @@ export default function Navbar() {
         </nav>
 
         <nav className="bg-transparent flex justify-evenly items-center">
-          <div className={`items-center justify-center ${NavOpen ? 'h-96 p-2' : 'h-0'} transition-transition-height duration-500 ease-in-out overflow-hidden md:overflow-visible md:h-full md:p-2 w-full md:flex bg-blue-950 md:order-1`} >
+          <div className={`items-center justify-center ${NavOpen ? 'h-96 p-2' : 'h-0'} transition-transition-height duration-500 ease-in-out overflow-hidden md:overflow-visible md:h-full md:p-2 w-full md:flex bg-red-950 md:order-1`} >
 
             {/* Mobile Search */}
             <div className="relative mt-3 md:hidden border-2 border-gray-300 rounded-lg">

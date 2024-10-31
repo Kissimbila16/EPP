@@ -35,7 +35,7 @@ const Page = () => {
   return (<>
     {(authUser && authUser?.isAdmin) &&
       <div>
-        <div className="w-full bg-blue-500 py-4 px-2 flex justify-between">
+        <div className="w-full bg-red-500 py-4 px-2 flex justify-between">
           <span className="w-full text-white text-lg font-medium">
             Welcome: <span> Admin ({authUser?.name})</span>
           </span>
@@ -43,7 +43,7 @@ const Page = () => {
             LogOut
           </button>
         </div>
-        <div className="mx-auto mt-5 p-5 w-[90%] min-h-[65vh] flex flex-wrap flex-row justify-center items-center border border-blue-500 rounded">
+        <div className="mx-auto mt-5 p-5 w-[90%] min-h-[65vh] flex flex-wrap flex-row justify-center items-center border border-red-500 rounded">
           <Link className="md:w-1/2 w-full h-auto flex justify-center items-center" href={"createevent"}>
             <DashboardCard itemName="create event" />
           </Link>

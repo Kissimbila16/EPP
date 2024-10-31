@@ -8,7 +8,7 @@ export default function AccordionCard({ title, description }) {
 
     return (
         <div className='container mx-auto my-2'>
-            <div className="text-blue-600 dark:text-white">
+            <div className="text-red-600 dark:text-white">
                 <h2 >
                     <button className="text-left bg-gray-300 flex items-center justify-between w-full p-5  text-black font-bold md:rounded-t-xl hover:bg-gray-400 "
                         onClick={() => setOpen(prev => !prev)}>
