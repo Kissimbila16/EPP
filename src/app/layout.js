@@ -75,10 +75,6 @@ export default function RootLayout({ children }) {
             showSpinner={false} />
           <Navbar />
 
-          {/* <div className=" min-h-screen overflow-x-hidden">
-        {children}
-        </div>
-        <Footer /> */}
 
           <FirstLoadPage children={children} />
         </AuthUserProvider>

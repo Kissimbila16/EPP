@@ -26,11 +26,16 @@ export default function page() {
     <div>
       <CarouselCompo />
       <NoticeLine />
-      <AboutCard />
+     
+     <div className='md:container md:mx-auto container'>
+     <AboutCard />
       <EventCardSection />
       <HighlightsSection />
       <DepartmentsSection />
       <Accordion />
+     </div>
+
+
     </div>
   )
 }

@@ -17,7 +17,7 @@ export default function Page() {
 
   // ==================== Return ====================
   return (
-    <div className="relative isolate px-2 min-h-screen">
+    <div className="md:container md:mx-auto container isolate px-2 min-h-screen">
 
       <div className="mx-auto max-w-4xl py-2 pt-8 lg:py-24">
 

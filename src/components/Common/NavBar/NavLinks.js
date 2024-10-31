@@ -24,10 +24,7 @@ function NavLinks() {
       title: "Events",
       path: "/events",
     },
-    {
-      title: "Highlights",
-      path: "/highlights",
-    },
+  
     {
       isDropdown: true,
       title: "Academics",
@@ -46,14 +43,8 @@ function NavLinks() {
         },
       ]
     },
-    {
-      title: "Alumni",
-      path: "/alumni",
-    },
-    // {
-    //   title: "Administration",
-    //   path: "/administration",
-    // },
+  
+    
     {
       authDependent: true,
       title: "LogIn",

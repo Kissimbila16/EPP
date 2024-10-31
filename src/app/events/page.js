@@ -1,8 +1,8 @@
 "use client"
-import EventCardSection from '@/components/EventCard/EventCardSection'
+import HighlightsSection from '@/components/Highlights/HighlightsSection'
 import React, { useEffect } from 'react'
 
-// ==================== Events Page ====================
+// ==================== HighlightsSection Page ====================
 export default function Page() {
 
   useEffect(() => {
@@ -17,7 +17,7 @@ export default function Page() {
 
   // ==================== Return ====================
   return (
-    <div className="relative isolate px-2 min-h-screen">
+    <div className="md:container md:mx-auto container isolate px-2 min-h-screen">
 
       {/* <div className="mx-auto max-w-2xl py-2 pt-16 sm:pt-10 lg:py-24">
         <div className="text-center">
@@ -29,7 +29,7 @@ export default function Page() {
           </p>
         </div>
       </div> */}
-      <EventCardSection HorizontalScroll={false} />
+      <HighlightsSection HorizontalScroll={false} />
     </div>
   )
 }

@@ -21,9 +21,9 @@ export default function Navbar() {
             <Link href="/" className="flex items-center space-x-3">
               <img src="/collegelogo.png" className="h-6 md:h-8 lg:h-10" alt="AOT Logo" />
               <AnimatedElement className="font-bold  font-serif text-xs sm:text-lg text-blue-900 ">
-                ACADEMY OF TECHNOLOGY
+                EPP
                 <div className="text-[8px] sm:text-xs text-right ">
-                  ....translate your vision into reality
+                ESCOLA PRATICA DA POLICIA NACIONAL
                 </div>
               </AnimatedElement>
             </Link>
